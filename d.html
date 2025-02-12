@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Job Portal</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#jobs">Jobs</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to the Job Portal</h2>
+        <p>Find your dream job here!</p>
+    </section>
+
+    <section id="jobs">
+        <h2>Job Listings</h2>
+        
+        <div id="filters">
+            <label for="category">Category:</label>
+            <select id="category">
+                <option value="all">All</option>
+                <option value="tech">Tech</option>
+                <option value="finance">Finance</option>
+                <option value="marketing">Marketing</option>
+            </select>
+        </div>
+        
+        <div id="job-list">
+            <!-- Job listings will appear here -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For any inquiries, please contact us at info@jobportal.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Job Portal. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
